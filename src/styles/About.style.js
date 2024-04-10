@@ -63,6 +63,8 @@ export const SkillGrid = styled.div`
 export const Button = styled.a`
   background-color: rgb(119, 19, 191);
   color: white;
+  text-decoration: none;
+  text-align: center;
   font-size: 1rem;
   font-weight: bold;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
