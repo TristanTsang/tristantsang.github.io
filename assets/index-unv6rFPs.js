@@ -47,7 +47,7 @@ Error generating stack: `+i.message+`
   justify-content: center;
   background-position: center;
   flex-direction: column;
-  background-image: url("../src/assets/background.jpg");
+  background-image: url(/assets/background.jpg);
 
   @media (max-width: 699px) {
     height: 67vh;
@@ -96,7 +96,7 @@ Error generating stack: `+i.message+`
   background-size: cover;
   background-position: center;
   flex-direction: column;
-  background-image: url("../src/assets/background.jpg");
+  background-image: url(/assets/background.jpg);
 `,a0=I.div`
   padding: 2.5%;
   margin-top: 10vh;
