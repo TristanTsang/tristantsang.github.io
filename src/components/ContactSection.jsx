@@ -11,6 +11,7 @@ import Divider from "./DividerComponent";
 import Title from "./TitleComponent";
 import Text from "./TextComponent";
 import emailjs from "@emailjs/browser";
+import background from "../assets/background.jpg";
 
 function Contact() {
   const form = useRef();
@@ -32,7 +33,7 @@ function Contact() {
   };
 
   return (
-    <OuterContainer id="contact">
+    <OuterContainer id="contact" src={background}>
       <Title color="black" text="CONTACT ME"></Title>
       <Divider></Divider>
       <Text

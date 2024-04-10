@@ -6,7 +6,7 @@ export const OuterContainer = styled.div`
   background-size: cover;
   background-position: center;
   flex-direction: column;
-  background-image: url(background);
+  background-image: url("../assets/background.jpg");
 `;
 
 export const InnerContainer = styled.div`
