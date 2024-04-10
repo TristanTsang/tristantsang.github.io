@@ -60,7 +60,7 @@ export const SkillGrid = styled.div`
   grid-gap: 15px;
 `;
 
-export const Button = styled.button`
+export const Button = styled.a`
   background-color: rgb(119, 19, 191);
   color: white;
   font-size: 1rem;

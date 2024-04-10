@@ -69,7 +69,11 @@ function Footer() {
               />
             </svg>
           </a>
-          <a style={buttonStyle} href="" target="_blank">
+          <a
+            style={buttonStyle}
+            target="_blank"
+            href="https://drive.google.com/file/d/1lfaWh_u3oAEtgPKvhS4IZ5mbY9KbtSyh/view?usp=sharing"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"

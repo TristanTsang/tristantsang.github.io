@@ -18,7 +18,10 @@ function NavBar() {
     <NavBarContainer>
       <NavBarInnerContainer>
         <LeftContainer>
-          <NavBarTitle href="https://www.linkedin.com/in/tristan-tsang-64bb31262/">
+          <NavBarTitle
+            target="_blank"
+            href="https://www.linkedin.com/in/tristan-tsang-64bb31262/"
+          >
             TRISTAN TSANG
           </NavBarTitle>
         </LeftContainer>

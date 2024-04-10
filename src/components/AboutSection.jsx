@@ -74,7 +74,12 @@ function AboutMe() {
             <SkillItem>React</SkillItem>
             <SkillItem>Agile</SkillItem>
           </SkillGrid>
-          <Button>MY RESUME</Button>
+          <Button
+            target="_blank"
+            href="https://drive.google.com/file/d/1lfaWh_u3oAEtgPKvhS4IZ5mbY9KbtSyh/view?usp=sharing"
+          >
+            MY RESUME
+          </Button>
         </ContainerSection>
       </InnerContainer>
     </AboutContainer>
