@@ -8,7 +8,7 @@ export const IntroContainer = styled.div`
   justify-content: center;
   background-position: center;
   flex-direction: column;
-  background-image: "../assets/background.jpg";
+  background-image: url("../src/assets/background.jpg");
 
   @media (max-width: 699px) {
     height: 67vh;
