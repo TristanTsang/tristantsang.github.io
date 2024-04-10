@@ -64,6 +64,7 @@ function Contact() {
           <TextArea
             type="submit"
             value="Send"
+            name="message"
             placeholder="Enter your message"
             rows="10"
           ></TextArea>
