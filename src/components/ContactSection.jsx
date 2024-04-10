@@ -33,7 +33,7 @@ function Contact() {
   };
 
   return (
-    <OuterContainer id="contact" src={background}>
+    <OuterContainer id="contact">
       <Title color="black" text="CONTACT ME"></Title>
       <Divider></Divider>
       <Text
