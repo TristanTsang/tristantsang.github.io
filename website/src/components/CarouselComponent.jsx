@@ -87,7 +87,7 @@ function Carousel(props) {
           <Title>{props.projects[index].title}</Title>
           <Subtitle>{props.projects[index].subtitle}</Subtitle>
           <Description>{props.projects[index].description} </Description>
-          <Button href={props.projects[index].link}>
+          <Button href={props.projects[index].link} target="_blank">
             {props.projects[index].linkTitle}
           </Button>
         </ProjectCover>

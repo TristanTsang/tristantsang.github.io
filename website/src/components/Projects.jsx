@@ -29,7 +29,7 @@ function Projects() {
     new Project(
       "Portfolio Website",
       "React, Javascript, HTML/CSS",
-      "",
+      "https://github.com/TristanTsang/TsangPortfolioWebsite",
       "GITHUB",
       "A personal portfolio website created with React, Javascript, and HTML/CSS. This website is built following responsive design principles allowing users to interact and access the website from different devices and window sizes. It contains dynamic states, a contact form, a carousel, and many other advanced features.",
       PortfolioImg

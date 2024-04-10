@@ -14,7 +14,9 @@ function Intro() {
         A dedicated full stack engineer with passion for innovation and product
         development
       </Description>
-      <Button href="https://github.com/TristanTsang">GITHUB </Button>
+      <Button href="https://github.com/TristanTsang" target="_blank">
+        GITHUB{" "}
+      </Button>
     </IntroContainer>
   );
 }

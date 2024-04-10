@@ -45,6 +45,7 @@ function AboutMe() {
             free to check out my resume or{" "}
             <a
               style={link}
+              target="_blank"
               href="https://www.linkedin.com/in/tristan-tsang-64bb31262/"
             >
               LinkedIn

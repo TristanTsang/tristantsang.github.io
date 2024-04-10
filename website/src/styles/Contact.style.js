@@ -64,11 +64,12 @@ export const TextArea = styled.textarea`
   margin-bottom: 2rem;
 `;
 
-export const Button = styled.button`
+export const Button = styled.input`
   background-color: rgb(119, 19, 191);
   color: white;
   font-size: 1rem;
   margin-left: auto;
+  position: static;
   font-weight: bold;
   width: 11rem;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
@@ -78,7 +79,8 @@ export const Button = styled.button`
   font-family: "Inter Tight";
   @media (max-width: 699px) {
     width: 80vw;
-    margin-left: 0;
+    margin-left: auto;
+    margin-right: auto;
   }
   cursor: pointer;
   margin-bottom: 1rem;

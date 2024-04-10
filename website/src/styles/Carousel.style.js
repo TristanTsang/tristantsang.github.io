@@ -25,6 +25,7 @@ export const ProjectImage = styled.img`
   }
 `;
 export const CarouselContainer = styled.div`
+  padding-top: 3rem;
   align-items: center;
   display: flex;
   justify-content: center;
