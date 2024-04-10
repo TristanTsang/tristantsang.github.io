@@ -47,7 +47,7 @@ Error generating stack: `+i.message+`
   justify-content: center;
   background-position: center;
   flex-direction: column;
-  background-image: url(background);
+  background-image: url("../assets/background.jpg");
 
   @media (max-width: 699px) {
     height: 67vh;
@@ -90,13 +90,13 @@ Error generating stack: `+i.message+`
     width: 67vw;
   }
   cursor: pointer;
-`;function u0(){return g.jsxs(r0,{id:"home",children:[g.jsx(o0,{children:"HEY, I'M TRISTAN TSANG"}),g.jsx(i0,{children:"A dedicated full stack engineer with passion for innovation and product development"}),g.jsxs(l0,{href:"https://github.com/TristanTsang",target:"_blank",children:["GITHUB"," "]})]})}const s0=I.div`
+`;function u0(){return g.jsxs(r0,{id:"home",back:!0,children:[g.jsx(o0,{children:"HEY, I'M TRISTAN TSANG"}),g.jsx(i0,{children:"A dedicated full stack engineer with passion for innovation and product development"}),g.jsxs(l0,{href:"https://github.com/TristanTsang",target:"_blank",children:["GITHUB"," "]})]})}const s0=I.div`
   display: flex;
   align-items: center;
   background-size: cover;
   background-position: center;
   flex-direction: column;
-  background-image: url(background);
+  background-image: url("../assets/background.jpg");
 `,a0=I.div`
   padding: 2.5%;
   margin-top: 10vh;
