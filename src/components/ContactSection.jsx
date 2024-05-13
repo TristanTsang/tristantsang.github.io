@@ -11,7 +11,6 @@ import Divider from "./DividerComponent";
 import Title from "./TitleComponent";
 import Text from "./TextComponent";
 import emailjs from "@emailjs/browser";
-import background from "../assets/background.jpg";
 
 function Contact() {
   const form = useRef();
@@ -64,7 +63,6 @@ function Contact() {
           <Label>MESSAGE</Label>
           <TextArea
             type="submit"
-            value="Send"
             name="message"
             placeholder="Enter your message"
             rows="10"
