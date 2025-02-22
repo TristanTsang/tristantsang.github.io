@@ -1,4 +1,5 @@
 import React from "react";
+import background from "../assets/background.jpg";
 import {
   IntroContainer,
   Header,
@@ -8,7 +9,7 @@ import {
 
 function Intro() {
   return (
-    <IntroContainer id="home">
+    <IntroContainer id="home" back>
       <Header>HEY, I'M TRISTAN TSANG</Header>
       <Description>
         A dedicated full stack engineer with passion for innovation and product

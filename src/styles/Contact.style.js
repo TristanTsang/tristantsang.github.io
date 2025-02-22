@@ -1,12 +1,12 @@
 import styled from "styled-components";
-
+import background from "../assets/background.jpg";
 export const OuterContainer = styled.div`
   display: flex;
   align-items: center;
   background-size: cover;
   background-position: center;
   flex-direction: column;
-  background-image: url("./src/assets/background.jpg");
+  background-image: url(assets/background-DkSUqBWR.jpg);
 `;
 
 export const InnerContainer = styled.div`

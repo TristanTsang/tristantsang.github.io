@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import background from "../assets/background.jpg";
 export const IntroContainer = styled.div`
   width: 100%;
   height: 100vh;
@@ -8,7 +9,7 @@ export const IntroContainer = styled.div`
   justify-content: center;
   background-position: center;
   flex-direction: column;
-  background-image: url("./src/assets/background.jpg");
+  background-image: url(assets/background-DkSUqBWR.jpg);
 
   @media (max-width: 699px) {
     height: 67vh;
